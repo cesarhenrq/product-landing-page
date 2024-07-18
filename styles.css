@@ -28,6 +28,29 @@ html {
   z-index: 1000;
 }
 
+#nav-bar {
+  margin-right: 1rem;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-bar ul li a:hover {
+  color: blue;
+}
+
+#nav-bar ul li a:active {
+  color: black;
+}
+
 main {
   margin-top: var(--header-height);
   padding: 1rem;
