@@ -1,3 +1,7 @@
+:root {
+  --header-height: 60px;
+}
+
 *,
 *::after,
 *::before {
@@ -9,4 +13,22 @@
 html {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+main {
+  margin-top: var(--header-height);
+  padding: 1rem;
 }
